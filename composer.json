@@ -56,11 +56,9 @@
             "@auto-scripts"
         ],
         "start": [
-            "Composer\\Config::disableProcessTimeout",
             "symfony server:start"
         ],
         "stop":[
-            "Composer\\Config::disableProcessTimeout",
             "symfony server:stop"
         ],
         "test:cs": "vendor/bin/php-cs-fixer fix src --dry-run",
